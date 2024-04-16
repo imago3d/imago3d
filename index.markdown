@@ -12,6 +12,30 @@ permalink: /home/
 
 # Witaj w Imago3D
 Twoim partnerze w tworzeniu innowacyjnych rozwiązań z zakresu widzenia komputerowego i uczenia maszynowego. Oferujemy kompleksowe usługi od modelowania danych po dedykowane rozwiązania sprzętowe, które pomagają firmom przekształcać branże.
+## Nasze Produkty
+
+<div class="grid__wrapper">
+{% for product in site.data.products %}
+  <div class="column">
+    <a href="{{ product.url }}">
+      <img src="{{ product.image }}" alt="{{ product.name }}" style="width:100%">
+      <h3>{{ product.name }}</h3>
+    </a>
+    <p>{{ product.description }}</p>
+  </div>
+{% endfor %}
+</div>
+
+<style>
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.column {
+  text-align: center;
+}
+</style>
 
 ## Nasze Kompetencje
 ### Widzenie Komputerowe

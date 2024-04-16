@@ -1,0 +1,14 @@
+- name: Custos
+  url: https://custos.world
+  image: /images/custos.jpg
+  description: Nasze urządzenie dla osób niewidomych, które działa jako "niewidzialny przewodnik", wykorzystujące przetwarzanie obrazów i geolokalizację do nawigacji.
+
+- name: EyeFace
+  url: https://eyeface.eu
+  image: /images/eyeface.jpg
+  description: Oprogramowanie umożliwiające sterowanie komputerem za pomocą ruchów twarzy i oczu, idealne dla osób z ograniczeniami fizycznymi.
+
+- name: Ogarnij.AI
+  url: https://ogarnij.ai
+  image: /images/ogarnijai.jpg
+  description: Platforma edukacyjna skupiająca się na nauczaniu zagadnień związanych z widzeniem komputerowym i uczeniem maszynowym.
